@@ -47,11 +47,12 @@ import {
   MatTooltipModule,
   MatTreeModule
 } from '@angular/material';
-//import { NavsepretComponent } from './navsepret/navsepret.component';
+
 import { LayoutModule } from '@angular/cdk/layout';
 import { HttpClientModule } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { NavStComponent } from './nav-st/nav-st.component';
 
 
 //import { DemandanteModule } from './users/personas/demandante.module';
@@ -60,7 +61,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 @NgModule({
   declarations: [
     AppComponent,
-    //NavsepretComponent
+    NavStComponent
   ],
   imports: [
     BrowserModule,
