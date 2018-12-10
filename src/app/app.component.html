@@ -1,1 +1,71 @@
-<app-nav-st></app-nav-st>
+<!--
+    <img mat-card-image fxFlexFill src="../assets/img/chess.jpg">
+-->
+
+
+<div class="container" fxLayoutAlign="center center">
+
+    <mat-card class="transparent">
+
+        <mat-card-header fxLayoutAlign="center">
+
+            <mat-card-title>
+                <mat-icon matSuffix class="orange600 md-48">person</mat-icon>
+            </mat-card-title>
+
+        </mat-card-header>
+
+        <mat-card-content fxLayoutAlign="center">
+
+            <form>
+
+                <table cellspacing="0">
+
+                    <tr>
+
+                        <td>
+
+                            <mat-form-field appearance="outline">
+                                <mat-label>Nombre de Usuario</mat-label>
+                                <input matInput placeholder="Llene Porfavor" autocomplete="off">
+                                <mat-icon matSuffix>person</mat-icon>
+                                <!--
+                                        <mat-hint>Hint</mat-hint>
+                                    -->
+                            </mat-form-field>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            <mat-form-field appearance="outline">
+                                <mat-label>Contraseña</mat-label>
+                                <input matInput placeholder="" type="password">
+                                <mat-icon matSuffix>lock</mat-icon>
+                                <!--
+                                        <mat-hint>Hint</mat-hint>
+                                    -->
+                            </mat-form-field>
+                        </td>
+
+                    </tr>
+                </table>
+
+            </form>
+            <!--
+                <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner>
+        -->
+        </mat-card-content>
+
+        <mat-card-actions fxLayoutAlign="center">
+
+            <button mat-raised-button (click)="login()">Login</button>
+
+        </mat-card-actions>
+
+    </mat-card>
+
+</div>
