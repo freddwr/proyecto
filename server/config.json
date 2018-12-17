@@ -1,4 +1,0 @@
-{
-    "connectionString": "mongodb://localhost/dbsepret",
-    "secret": "sepret"
-}
